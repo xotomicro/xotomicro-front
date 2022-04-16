@@ -1,0 +1,11 @@
+{
+  "packages": ["packages/service/*", "packages/system/*", "registries/*"],
+  "useWorkspaces": true,
+  "nohoist": ["**"],
+  "ignoreChanges": ["**/__tests__/**"],
+  "npmClient": "yarn",
+  "command": {
+    "bootstrap": {"ignore": "", "npmClientArgs": ["--no-package-lock"]}
+  },
+  "version": "independent"
+}

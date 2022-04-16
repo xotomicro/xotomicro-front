@@ -1,0 +1,48 @@
+{
+  "name": "xotomicro-front",
+  "description": "xotomicro-front root of the xotomicro repo pack - 📦",
+  "license": "ISC",
+  "private": true,
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ],
+    "packages": [
+      "packages/service/*",
+      "packages/system/*",
+      "registries/*"
+    ]
+  },
+  "scripts": {
+    "boot": "yarn git:checkout && yarn clean && yarn update:registries && yarn initialize",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build --stream",
+    "clean": "lerna clean --yes && lerna exec -- rm -rf build",
+    "initialize": "yarn install",
+    "start": "lerna exec yarn start --parallel",
+    "start:app": "lerna run start --stream --scope={@xotomicro/xotomicro-front-auth-service,@xotomicro/xotomicro-front-event-service,@xotomicro/xotomicro-front-order-service,@xotomicro/xotomicro-front-product-service,@xotomicro/xotomicro-front-user-service}",
+    "start:root": "lerna run start --stream --scope={@xotomicro/xotomicro-front-shell-system,@xotomicro/xotomicro-front-hook-system}",
+    "start:xotomicro-front-shell-system": "lerna run start --stream --scope=@xotomicro/xotomicro-front-shell-system",
+    "start:xotomicro-front-hook-system": "lerna run start --stream --scope=@xotomicro/xotomicro-front-hook-system",
+    "start:xotomicro-front-event-service": "lerna run start --stream --scope=@xotomicro/xotomicro-front-event-service",
+    "start:xotomicro-front-order-service": "lerna run start --stream --scope=@xotomicro/xotomicro-front-order-service",
+    "start:xotomicro-front-auth-service": "lerna run start --stream --scope=@xotomicro/xotomicro-front-auth-service",
+    "start:xotomicro-front-product-service": "lerna run start --stream --scope=@xotomicro/xotomicro-front-product-service",
+    "start:xotomicro-front-user-service": "lerna run start --stream --scope=@xotomicro/xotomicro-front-user-service",
+    "format:prettify": "lerna run format:prettify --stream",
+    "lint:eslint": "lerna run lint:eslint --stream",
+    "lint:stylelint": "lerna run lint:stylelint --stream",
+    "test:all": "lerna run test --stream --since",
+    "update:registries": "lerna run update:registries --stream",
+    "update:changelog": "lerna run update:changelog --stream",
+    "git:update": "lerna run git:update --stream",
+    "git:checkout": "lerna exec git checkout development"
+  },
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "auto-changelog": "^2.4.0"
+  }
+}
