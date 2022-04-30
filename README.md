@@ -113,7 +113,7 @@ yarn test:all # tell learna to run all tests
 ### 📝 LICENSE
 
 Copyright © 2021 [XOTOSPHERE](https://github.com/xotosphere).<br/>
-This project is [ISC](https://github.com/xotomicro/xotomicro-front/blob/main/LICENSE) licensed.
+This project is [ISC](https://raw.githubusercontent.com/xotomicro/xotomicro-front/development/LICENSE) licensed.
 
 ### 🛳 PORTS
 | ROOTSHELL | SERVICEEVENT | SERVICEORDER | SERVICEPRODUCT | SERVICEUSER | SERVICEAUTH | xotomicro-front-hook-system |
