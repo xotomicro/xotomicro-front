@@ -2387,7 +2387,7 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react-dom@*", "@types/react-dom@^17.0.0":
+"@types/react-dom@^17.0.0":
   version "17.0.14"
   resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.14.tgz"
   integrity sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==
@@ -2424,13 +2424,12 @@
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@types/single-spa-react@^2.12.0":
-  version "2.12.0"
-  resolved "https://registry.npmjs.org/@types/single-spa-react/-/single-spa-react-2.12.0.tgz"
-  integrity sha512-FISPO51Cq961trYHVFr30iazZHuGyAJ0ZH38wpxhJdZUZcAwfR7UG19sHGWRtTip1kv3xRshS3L9tzaYcKbPVg==
+"@types/single-spa-react@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/single-spa-react/-/single-spa-react-4.0.0.tgz#017f47a864dc954af7f5561a95c98dd33f856784"
+  integrity sha512-+htuHjgux1Q2J71OGd8/GVvOPVEFFxC8ML4qjr0hppKySUzGLld/O7KbiMOOVVG4gOVBnghsjjHZYlUFLFhKTQ==
   dependencies:
-    "@types/react" "*"
-    "@types/react-dom" "*"
+    single-spa-react "*"
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -2771,20 +2770,20 @@
     single-spa-react "^3.2.0"
     style-loader "^3.2.1"
 
-"@xotomicro/xotomicro-front-common-registry@^0.0.10":
-  version "0.0.10"
-  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-common-registry/0.0.10/ebd2625178209ec6c7ddb1e9ee470f13b1848f566cde90c3e0345dd92037b445#e6545157a69594f14e6585259acf558075c28d81"
-  integrity sha512-krFFAls8ViByzOhrpOUq8chE4QoYXJQ+p5kIQJyplI0Bt8HZyC4rzO3D3xW93GLmtH+FVI2zSyVVF/MGIWNloA==
+"@xotomicro/xotomicro-front-common-registry@^0.0.15":
+  version "0.0.15"
+  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-common-registry/0.0.15/434d01376af7de66dd19837a8643fe984958a76767c9b8a4f11c91bdbd3512e9#df472f424b773d327a078bcbfcb193cad7965a85"
+  integrity sha512-wW33jngXY59QCzHH14UraxLjhZDNKRjO43NzKz9ymuuipHLlivNFeeIjeby2qCgJQlGHZ7wyb8KbW6pVyptzJQ==
   dependencies:
     "@types/node" "^17.0.21"
-    "@xotomicro/xotomicro-front-utility-registry" "^0.0.7"
+    "@xotomicro/xotomicro-front-utility-registry" "^0.0.9"
     css-loader "^6.2.0"
     identity-obj-proxy "^3.0.0"
     react "^17.0.1"
     react-dom "^17.0.1"
     sass-loader "^12.1.0"
     single-spa "^5.8.3"
-    single-spa-react "^3.2.0"
+    single-spa-react "^4.6.1"
     style-loader "^3.2.1"
 
 "@xotomicro/xotomicro-front-design-registry@^0.0.1":
@@ -2804,13 +2803,13 @@
     single-spa-react "^3.2.0"
     style-loader "^3.2.1"
 
-"@xotomicro/xotomicro-front-design-registry@^0.0.10":
-  version "0.0.10"
-  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-design-registry/0.0.10/603277f7afb453e7e6427d2903504521fae72c91a9c52e00fd6ba95baf66c47a#6729c67719b3869ab3c3c137e21a9c83b8a69f58"
-  integrity sha512-PPPxU8+fg+rxCUFljX+E3NTNZCIZRi2kLyrKfltMvGChPWiRbMcuc1OkkfTh3zQgZQS8Zfzsu8fXk3gMf8uVeg==
+"@xotomicro/xotomicro-front-design-registry@^0.0.15":
+  version "0.0.15"
+  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-design-registry/0.0.15/93897d9e1fccaabc898c05a112cf21571df1eb72a308162ae76da06084024fdf#ff006c8078769eb4c97dd93665b24b8e4554c32d"
+  integrity sha512-pVPc81tWxvJGsWy0IiDY5WitRgu8TrqbOMNe69FDvAgWBsnL5mlL0GcaFodDWYPkMDnm9kBcZcGpOAp48Rn4Ew==
   dependencies:
     "@types/node" "^17.0.21"
-    "@xotomicro/xotomicro-front-utility-registry" "^0.0.7"
+    "@xotomicro/xotomicro-front-utility-registry" "^0.0.9"
     css-loader "^6.2.0"
     identity-obj-proxy "^3.0.0"
     react "^17.0.1"
@@ -2818,7 +2817,7 @@
     sass "^1.45.1"
     sass-loader "^12.1.0"
     single-spa "^5.8.3"
-    single-spa-react "^3.2.0"
+    single-spa-react "^4.6.1"
     style-loader "^3.2.1"
 
 "@xotomicro/xotomicro-front-utility-registry@^0.0.1":
@@ -2828,10 +2827,17 @@
   dependencies:
     identity-obj-proxy "^3.0.0"
 
-"@xotomicro/xotomicro-front-utility-registry@^0.0.7":
-  version "0.0.7"
-  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-utility-registry/0.0.7/24878d710eda2bebcc1a8458cb83d17ea3060d3cdc698eaf8d9b81752564062a#c0c7f621cbabdd929ecfbef1b4631f223aaf4c43"
-  integrity sha512-puZbGK8W1MyoHgbZ/AqfqPMKUI3xtMisNBoSfIoESEBpafQtW7ejuTfom+JRwChplmecf6AGYJHEDZTXzGJREQ==
+"@xotomicro/xotomicro-front-utility-registry@^0.0.14":
+  version "0.0.14"
+  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-utility-registry/0.0.14/afecd2b272371e88f5e0279e6d05a0104fc9d3a4b2ad4d5944972ead1b3e18ca#5b403481fea3109e0f1ebd942f4c87b0025fed8d"
+  integrity sha512-sIiowS+W7qATIHfdj9XrxehwYEZ87szwNicU5QywPIDU45ExBCNh6MOKIBCGYJbK3T0DWIQ/vb3K0WGXPYd09A==
+  dependencies:
+    identity-obj-proxy "^3.0.0"
+
+"@xotomicro/xotomicro-front-utility-registry@^0.0.9":
+  version "0.0.9"
+  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-utility-registry/0.0.9/49ffdae9dd03053fe87aeec5e9a3117897e58cafe9d503f6736e54e50b6d8700#ddaaab708b307d3fb271d85857908bc377afaece"
+  integrity sha512-pIS66jwfuW9StcSMz9HHHZyrX+0LKlqKrlqk2LCz78kEAR4K6HhbK0wbXv6k/3Lm6mw/Ypwan+4RAVXBsvR5aA==
   dependencies:
     identity-obj-proxy "^3.0.0"
 
@@ -10272,17 +10278,17 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-single-spa-react@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/single-spa-react/-/single-spa-react-3.2.0.tgz"
-  integrity sha512-s8K7AuS26WvN9n81z1NBlnZIe/Hin423P8jYLuG/DCNTYo5JbJMS5+Cb/wQd4ikG6YqoedpV4cb7nAcxvlLyhg==
-
-single-spa-react@^4.6.1:
+single-spa-react@*, single-spa-react@^4.6.1:
   version "4.6.1"
   resolved "https://registry.npmjs.org/single-spa-react/-/single-spa-react-4.6.1.tgz"
   integrity sha512-19Yr1f6u9ix/wTI+OVLzX/KJ258xCyfe1Zpw7NKoI02QWBLx5B9l9XmBx9gqVtkrgP5ARR0Wr3ztY7EN8V1DAA==
   dependencies:
     browserslist-config-single-spa "^1.0.1"
+
+single-spa-react@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/single-spa-react/-/single-spa-react-3.2.0.tgz"
+  integrity sha512-s8K7AuS26WvN9n81z1NBlnZIe/Hin423P8jYLuG/DCNTYo5JbJMS5+Cb/wQd4ikG6YqoedpV4cb7nAcxvlLyhg==
 
 single-spa@^5.8.2, single-spa@^5.8.3:
   version "5.9.3"
