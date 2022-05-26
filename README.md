@@ -99,28 +99,30 @@ yarn test:all # tell learna to run all tests
 
 ### 📜 DOCUMENTATION KUBERNETES
 
-- [KUBERNETES](./kubernetes/README.md) : main readme for front kubernetes (local kubectl & minikube)
+- [KUBERNETES](https://github.com/xotomicro/xotomicro-front/blob/development/kubernetes/README.md) : main readme for front kubernetes (local kubectl & minikube)
 
 ### 🌸 SERVICE/SYSTEM/REGISTRIES DOCUMENTATION
 
 1. SERVICE APPS
 
-- [SERVICE-APP SERVICEAUTH](./packages/service/xotomicro-front-auth-service/README.md) documentation/frontend - xotomicro-front-auth-service service
-- [SERVICE-APP SERVICEEVENT](./packages/service/xotomicro-front-event-service/README.md) documentation/frontend - xotomicro-front-event-service service
-- [SERVICE-APP SERVICEORDER](./packages/service/xotomicro-front-order-service/README.md) documentation/frontend - xotomicro-front-order-service service
-- [SERVICE-APP SERVICEPRODUCT](./packages/service/xotomicro-front-product-service/README.md) documentation/frontend - xotomicro-front-product-service service
-- [SERVICE-APP SERVICEUSER](./packages/service/xotomicro-front-user-service/README.md) documentation/frontend - xotomicro-front-user-service service
+- [SERVICE-APP SERVICE AUTH](https://github.com/xotomicro/xotomicro-front-auth-service/blob/development/README.md) documentation/frontend - xotomicro-front-auth-service service
+- [SERVICE-APP SERVICE EVENT](https://github.com/xotomicro/xotomicro-front-event-service/blob/development/README.md) documentation/frontend - xotomicro-front-event-service service
+- [SERVICE-APP SERVICE ORDER](https://github.com/xotomicro/xotomicro-front-order-service/blob/development/README.md) documentation/frontend - xotomicro-front-order-service service
+- [SERVICE-APP SERVICE PRODUCT](https://github.com/xotomicro/xotomicro-front-product-service/blob/development/README.md) documentation/frontend - xotomicro-front-product-service service
+- [SERVICE-APP SERVICE USER](https://github.com/xotomicro/xotomicro-front-user-service/blob/development/README.md) documentation/frontend - xotomicro-front-user-service service
 
 2. SYSTEM APPS
 
-- [SYSTEM-APP xotomicro-front-hook-system](./packages/system/xotomicro-front-hook-system/README.md) documentation/frontend - xotomicro-front-hook-system system
-- [SYSTEM-APP xotomicro-front-shell-system](./packages/system/xotomicro-front-shell-system/README.md) documentation/frontend - xotomicro-front-shell-system system
+- [SYSTEM-APP HOOK](https://github.com/xotomicro/xotomicro-front-hook-system/blob/development/README.md) documentation/frontend - xotomicro-front-hook-system system
+- [SYSTEM-APP SHELL](https://github.com/xotomicro/xotomicro-front-shell-system/blob/development/README.md) documentation/frontend - xotomicro-front-shell-system system
 
 3. REGISTRIES
 
-- [REGISTRIES xotomicro-front-design-registry](./registries/xotomicro-front-design-registry/README.md) documentation/frontend - xotomicro-front-design-registry registry
-- [REGISTRIES xotomicro-front-common-registry](./registries/xotomicro-front-common-registry/README.md) documentation/frontend - xotomicro-front-common-registry registry
-- [REGISTRIES xotomicro-front-utility-registry](./registries/xotomicro-front-utility-registry/README.md) documentation/frontend - xotomicro-front-utility-registry registry
+- [REGISTRIES DESIGN](https://github.com/xotomicro/xotomicro-front-design-registry/blob/development/README.md) documentation/frontend - xotomicro-front-design-registry registry
+- [REGISTRIES COMMON](https://github.com/xotomicro/xotomicro-front-common-registry/blob/development/README.md) documentation/frontend - xotomicro-front-common-registry registry
+- [REGISTRIES UTILITY](https://github.com/xotomicro/xotomicro-front-utility-registry/blob/development/README.md) documentation/frontend - xotomicro-front-utility-registry registry
+
+
 
 ### 👤 AUTHOR
 
