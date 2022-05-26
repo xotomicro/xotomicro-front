@@ -4,9 +4,10 @@
 </div>
 <br>
 
-### 🏗️ ARCHITECTURE
-
-<img src="/documentation/frontend/example-architecture.png" width="800">
+<div align="center">
+ <h1> 🏗️ ARCHITECTURE </h1>
+ <img src="/documentation/frontend/example-architecture.png" width="50%">
+</div>
 
 ### 🤷🏼‍♂️ PREREQUISITE DEPENDENCIES
 
@@ -20,7 +21,7 @@
 micro-front ends can work as standalone and is only dependent of the ***xotomicro-front-hook-system*** and the ***xotomicro-front-shell-system*** service
 
 - xotomicro-front-hook-system
-  - the system that encapsulates components and renders them on a specific section app/page.
+  - the system that ***encapsulates components and renders them on a specific section app/page.
 
 - xotomicro-front-shell-system
   - the system that hosts all data passed by the ***global event distributor*** and shells all services independently
@@ -38,8 +39,8 @@ git clone --recurse-submodules https://github.com/xotomicro/xotomicro-front.git 
 
 ```shell
 
-# register packages - yarn 
-export GITHUB_TOKEN=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 # first set accessibility rules for your team and add your github token like so 
+# register packages - yarn (ask owner for token)
+export GITHUB_TOKEN=${ASK_GITHUB_TOKEN} # first set accessibility rules for your team and add your github token like so 
 npm set "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" # you will need to tell npm to authenticate yourself to install registries
 
 ```
