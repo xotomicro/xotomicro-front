@@ -1,3 +1,5 @@
+
+
 <div align="center">
  <h1> Monorepo and Micro-Front Boilerplate 👋  </h1>
  <img  src="/documentation/frontend/example-monorepo.jpg" width="50%">
@@ -8,6 +10,17 @@
  <h1> 🏗️ ARCHITECTURE </h1>
  <img src="/documentation/frontend/example-architecture.png" width="50%">
 </div>
+
+- [🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO](#️-prerequisite-to-run-monorepo)
+	- [📜 RUN MONOREPO - LERNA](#-run-monorepo---lerna)
+	- [🐳 RUN MONOREPO - DOCKER](#-run-monorepo---docker)
+	- [🧹 OTHER HELPFULL COMMANDS](#-other-helpfull-commands)
+	- [📦 REGISTRIES INFORMATION - MONOREPO LOGIN (OPTIONAL)](#-registries-information---monorepo-login-optional)
+	- [📜 DOCUMENTATION KUBERNETES](#-documentation-kubernetes)
+	- [🌸 SERVICE/SYSTEM/REGISTRIES DOCUMENTATION](#-servicesystemregistries-documentation)
+	- [👤 AUTHOR](#-author)
+	- [📝 LICENSE](#-license)
+	- [🛳 PORTS](#-ports)
 
 ### 🤷🏼‍♂️ PREREQUISITE DEPENDENCIES
 
