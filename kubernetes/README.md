@@ -1,20 +1,24 @@
 <h1 align="center">Microservices front Kubernetes 👋</h1>
 
 ### 🤷🏼‍♂️ PREREQUISITE
+
 1. kubectl
 2. minikube environment
 
 ### 🧊 SWITCH TO MINIKUBE ENVIRONMENT
+
 ```shell
 eval $(minikube docker-env) # tell docker that you want to use minikube for your env
 ```
 
 ### 🏗 BUILD ALL DOCKER IMAGES BY DOCKER-COMPOSE
+
 ```shell
 docker-compose --env-file=.env build # build services with docker
 ```
 
 ### 🖥 OTHER USEFUL COMMANDS
+
 ```shell
 kubectl get pods # Get all pods
 kubectl get deployment # Get all deployment
