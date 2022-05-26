@@ -1,16 +1,18 @@
 <h1 align="center">Microservices Frontend Monorepo 👋</h1>
 
 <div align="center">
- <h2> Monorepo and Micro-Front Boilerplate 👋  </h2>
+ <h3> Monorepo and Micro-Front Boilerplate 👋  </h3>
  <img  src="/documentation/frontend/example-monorepo.jpg" width="70%">
 </div>
 
 <br>
 
 <div align="center">
- <h2> 🏗️ ARCHITECTURE </h2>
+ <h3> 🏗️ ARCHITECTURE </h3>
  <img src="/documentation/frontend/example-architecture.png" width="70%">
 </div>
+
+<br>
 
 - [🤷🏼‍♂️ PREREQUISITE DEPENDENCIES](#️-prerequisite-dependencies)
 - [🚀 SERVICES REQUIRED INFORMATION](#-services-required-information)
