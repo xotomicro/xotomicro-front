@@ -20,7 +20,6 @@
     "clean": "lerna clean --yes && lerna exec -- rm -rf build",
     "initialize": "yarn install",
     "start": "lerna exec yarn start --parallel",
-    "start:app": "lerna run start --stream --scope={@xotomicro/xotomicro-front-auth-service,@xotomicro/xotomicro-front-event-service,@xotomicro/xotomicro-front-order-service,@xotomicro/xotomicro-front-product-service,@xotomicro/xotomicro-front-user-service}",
     "start:root": "lerna run start --stream --scope={@xotomicro/xotomicro-front-shell-system,@xotomicro/xotomicro-front-hook-system}",
     "start:xotomicro-front-shell-system": "lerna run start --stream --scope=@xotomicro/xotomicro-front-shell-system",
     "start:xotomicro-front-hook-system": "lerna run start --stream --scope=@xotomicro/xotomicro-front-hook-system",
