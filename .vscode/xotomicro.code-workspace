@@ -1,0 +1,15 @@
+{
+  "folders": [
+		{"path":"/packages/service/xotomicro-front-auth-service"},
+		{"path":"/packages/service/xotomicro-front-event-service"},
+		{"path":"/packages/service/xotomicro-front-order-service"},
+		{"path":"/packages/service/xotomicro-front-product-service"},
+		{"path":"/packages/service/xotomicro-front-user-service"},
+		{"path":"/packages/system/xotomicro-front-hook-system"},
+		{"path":"/packages/system/xotomicro-front-shell-system"},
+  ],
+  "settings": {
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay"
+  }
+}      
