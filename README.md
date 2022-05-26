@@ -1,32 +1,29 @@
 
+- [🤷🏼‍♂️ PREREQUISITE DEPENDENCIES](#️-prerequisite-dependencies)
+- [🚀 SERVICES REQUIRED INFORMATION](#-services-required-information)
+- [🎭 MONOREPO MODE CLONE](#-monorepo-mode-clone)
+- [🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO](#️-prerequisite-to-run-monorepo)
+- [📜 RUN MONOREPO - LERNA](#-run-monorepo---lerna)
+- [🐳 RUN MONOREPO - DOCKER](#-run-monorepo---docker)
+- [🧹 OTHER HELPFULL COMMANDS](#-other-helpfull-commands)
+- [📦 REGISTRIES INFORMATION - MONOREPO LOGIN (OPTIONAL)](#-registries-information---monorepo-login-optional)
+- [📜 DOCUMENTATION KUBERNETES](#-documentation-kubernetes)
+- [🌸 SERVICE/SYSTEM/REGISTRIES DOCUMENTATION](#-servicesystemregistries-documentation)
+- [👤 AUTHOR](#-author)
+- [📝 LICENSE](#-license)
+- [🛳 PORTS](#-ports)
 
 <div align="center">
  <h1> Monorepo and Micro-Front Boilerplate 👋  </h1>
  <img  src="/documentation/frontend/example-monorepo.jpg" width="50%">
 </div>
+
 <br>
 
 <div align="center">
  <h1> 🏗️ ARCHITECTURE </h1>
  <img src="/documentation/frontend/example-architecture.png" width="50%">
 </div>
-
-## TABLE OF CONTENT
-
-- [TABLE OF CONTENT](#table-of-content)
-	- [🤷🏼‍♂️ PREREQUISITE DEPENDENCIES](#️-prerequisite-dependencies)
-	- [🚀 SERVICES REQUIRED INFORMATION](#-services-required-information)
-	- [🎭 MONOREPO MODE CLONE](#-monorepo-mode-clone)
-	- [🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO](#️-prerequisite-to-run-monorepo)
-	- [📜 RUN MONOREPO - LERNA](#-run-monorepo---lerna)
-	- [🐳 RUN MONOREPO - DOCKER](#-run-monorepo---docker)
-	- [🧹 OTHER HELPFULL COMMANDS](#-other-helpfull-commands)
-	- [📦 REGISTRIES INFORMATION - MONOREPO LOGIN (OPTIONAL)](#-registries-information---monorepo-login-optional)
-	- [📜 DOCUMENTATION KUBERNETES](#-documentation-kubernetes)
-	- [🌸 SERVICE/SYSTEM/REGISTRIES DOCUMENTATION](#-servicesystemregistries-documentation)
-	- [👤 AUTHOR](#-author)
-	- [📝 LICENSE](#-license)
-	- [🛳 PORTS](#-ports)
 
 ### 🤷🏼‍♂️ PREREQUISITE DEPENDENCIES
 
@@ -121,8 +118,6 @@ yarn test:all # tell learna to run all tests
 - [REGISTRIES DESIGN](https://github.com/xotomicro/xotomicro-front-design-registry/blob/development/README.md) documentation/frontend - xotomicro-front-design-registry registry
 - [REGISTRIES COMMON](https://github.com/xotomicro/xotomicro-front-common-registry/blob/development/README.md) documentation/frontend - xotomicro-front-common-registry registry
 - [REGISTRIES UTILITY](https://github.com/xotomicro/xotomicro-front-utility-registry/blob/development/README.md) documentation/frontend - xotomicro-front-utility-registry registry
-
-
 
 ### 👤 AUTHOR
 
