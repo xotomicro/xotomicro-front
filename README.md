@@ -11,7 +11,13 @@
  <img src="/documentation/frontend/example-architecture.png" width="50%">
 </div>
 
-- [🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO](#️-prerequisite-to-run-monorepo)
+## TABLE OF CONTENT
+
+- [TABLE OF CONTENT](#table-of-content)
+	- [🤷🏼‍♂️ PREREQUISITE DEPENDENCIES](#️-prerequisite-dependencies)
+	- [🚀 SERVICES REQUIRED INFORMATION](#-services-required-information)
+	- [🎭 MONOREPO MODE CLONE](#-monorepo-mode-clone)
+	- [🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO](#️-prerequisite-to-run-monorepo)
 	- [📜 RUN MONOREPO - LERNA](#-run-monorepo---lerna)
 	- [🐳 RUN MONOREPO - DOCKER](#-run-monorepo---docker)
 	- [🧹 OTHER HELPFULL COMMANDS](#-other-helpfull-commands)
@@ -48,7 +54,7 @@ git clone --recurse-submodules https://github.com/xotomicro/xotomicro-front.git 
 
 ```
 
-## 🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO
+### 🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO
 
 ```shell
 
@@ -119,7 +125,6 @@ yarn test:all # tell learna to run all tests
 ### 👤 AUTHOR
 
  **xotosphere organization**
-
 - Github: [@xotosphere](https://github.com/xotosphere)
 
 ### 📝 LICENSE
