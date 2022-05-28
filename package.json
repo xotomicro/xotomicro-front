@@ -33,6 +33,7 @@
     "lint:stylelint": "lerna run lint:stylelint --stream",
     "test:all": "lerna run test --stream --since",
     "update:registries": "lerna run update:registries --stream",
+    "publish:registries": "lerna run publish:registries --stream",
     "update:changelog": "lerna run update:changelog --stream",
     "git:update": "lerna run git:update --stream",
     "git:checkout": "lerna exec git checkout development"
