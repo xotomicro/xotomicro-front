@@ -17,7 +17,6 @@
 - [🤷🏼‍♂️ PREREQUISITE DEPENDENCIES](#️-prerequisite-dependencies)
 - [🚀 SERVICES REQUIRED INFORMATION](#-services-required-information)
 - [🎭 MONOREPO MODE CLONE](#-monorepo-mode-clone)
-- [🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO](#️-prerequisite-to-run-monorepo)
 - [📜 RUN MONOREPO - LERNA](#-run-monorepo---lerna)
 - [🐳 RUN MONOREPO - DOCKER](#-run-monorepo---docker)
 - [🧹 OTHER HELPFULL COMMANDS](#-other-helpfull-commands)
@@ -54,19 +53,12 @@ git clone --recurse-submodules https://github.com/xotomicro/xotomicro-front.git 
 
 ```
 
-### 🤷🏼‍♂️ PREREQUISITE TO RUN MONOREPO
-
-```shell
-
-# register packages - yarn (ask owner for token)
-export GITHUB_TOKEN=${ASK_FOR_GITHUB_TOKEN} # first set accessibility rules for your team and add your github token like so 
-npm set "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" # you will need to tell npm to authenticate yourself to install registries
-
-```
-
 ### 📜 RUN MONOREPO - LERNA
 
 ```sh
+
+# register packages - yarn (ask owner for token)
+npm set "//npm.pkg.github.com/:_authToken=${ASKED_GITHUB_TOKEN}" # you will need to tell npm to authenticate yourself to install registries
 
 yarn boot # bootstraps packages and cleans all node_modules with lerna
 yarn start # to run [all] services
@@ -77,8 +69,9 @@ yarn start:{service} # run single front service example with lerna -> (or yarn s
 ### 🐳 RUN MONOREPO - DOCKER
 
 ```sh
+export GITHUB_TOKEN=${ASKED_GITHUB_TOKEN} # first set accessibility rules for your team and add your github token like so 
 
-docker-compose --env-file=.env up --build -d
+docker-compose --env-file=token.env up --build -d --force-recreate
 
 ```
 
