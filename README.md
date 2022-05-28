@@ -69,9 +69,8 @@ yarn start:{service} # run single front service example with lerna -> (or yarn s
 ### 🐳 RUN MONOREPO - DOCKER
 
 ```sh
-export GITHUB_TOKEN=${ASKED_GITHUB_TOKEN} # first set accessibility rules for your team and add your github token like so 
 
-docker-compose --env-file=token.env up --build -d --force-recreate
+docker-compose --env-file=monorepo.env up --build -d --force-recreate
 
 ```
 
