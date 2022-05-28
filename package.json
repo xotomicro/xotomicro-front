@@ -34,6 +34,7 @@
     "registries:update": "lerna run registries:update --stream",
     "registries:publish": "lerna run registries:publish --stream",
     "git:changelog": "lerna run git:changelog --stream",
+    "git:init": "lerna run git:init --stream",
     "git:update": "lerna run git:update --stream",
     "git:checkout": "lerna exec git checkout development"
   },
