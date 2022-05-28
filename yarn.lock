@@ -2770,22 +2770,6 @@
   resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.6.1.tgz#0de2875ac31b46b6c5bb1ae0a7d7f0ba5678dffe"
   integrity sha512-gNGTiTrjEVQ0OcVnzsRSqTxaBSr+dmTfm+qJsCDluky8uhdLWep7Gcr62QsAKHTMxjCS/8nEITsmFAhfIx+QSw==
 
-"@xotomicro/xotomicro-front-common-registry@^0.0.1":
-  version "0.0.1"
-  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-common-registry/0.0.1/8c85c8ba594d0372bdf8772fddfd60fb6836cf2e2ea4ba6995158b3f3ea7e7d8#ed8e3356b03ea1cd64f105e5553faba49025517b"
-  integrity sha512-lzxCN7MLAhTVfW0t8EcqC42C0YV7nUsPtzBKcclllQokVkTCiVHjoiHdKkMJh+9Ik86CfHpKdDzc8nQ0/nQJzg==
-  dependencies:
-    "@types/node" "^17.0.21"
-    "@xotomicro/xotomicro-front-utility-registry" "^0.0.1"
-    css-loader "^6.2.0"
-    identity-obj-proxy "^3.0.0"
-    react "^17.0.1"
-    react-dom "^17.0.1"
-    sass-loader "^12.1.0"
-    single-spa "^5.8.3"
-    single-spa-react "^3.2.0"
-    style-loader "^3.2.1"
-
 "@xotomicro/xotomicro-front-common-registry@^0.0.15":
   version "0.0.15"
   resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-common-registry/0.0.15/434d01376af7de66dd19837a8643fe984958a76767c9b8a4f11c91bdbd3512e9#df472f424b773d327a078bcbfcb193cad7965a85"
@@ -2800,23 +2784,6 @@
     sass-loader "^12.1.0"
     single-spa "^5.8.3"
     single-spa-react "^4.6.1"
-    style-loader "^3.2.1"
-
-"@xotomicro/xotomicro-front-design-registry@^0.0.1":
-  version "0.0.1"
-  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-design-registry/0.0.1/41bef74b5679d6131a34985787666db6a247dc6dcf42d52b558989c87032816e#8012eae02dde653631d0e75d0b0fd1e2d1e04860"
-  integrity sha512-dSbUMir6fLWhiCWkX8ZoyW/o3v9mOQoYZPqErub9xsN9Q/YaN2PSLsXy02MI3vKYIRZW7t2ACV0tGJsLlf4O3g==
-  dependencies:
-    "@types/node" "^17.0.21"
-    "@xotomicro/xotomicro-front-utility-registry" "^0.0.1"
-    css-loader "^6.2.0"
-    identity-obj-proxy "^3.0.0"
-    react "^17.0.1"
-    react-dom "^17.0.1"
-    sass "^1.45.1"
-    sass-loader "^12.1.0"
-    single-spa "^5.8.3"
-    single-spa-react "^3.2.0"
     style-loader "^3.2.1"
 
 "@xotomicro/xotomicro-front-design-registry@^0.0.15":
@@ -2835,13 +2802,6 @@
     single-spa "^5.8.3"
     single-spa-react "^4.6.1"
     style-loader "^3.2.1"
-
-"@xotomicro/xotomicro-front-utility-registry@^0.0.1":
-  version "0.0.1"
-  resolved "https://npm.pkg.github.com/download/@xotomicro/xotomicro-front-utility-registry/0.0.1/1d15571c7da1b28f16baa6de336bb92ff29e5ea66d4335d51666eb8453a017fe#33f964d70a4c7b3e901e4b7743f54d14558bbe5b"
-  integrity sha512-G0O1mSXk07ymX2nN7nBfL5d26JxlA8gKrOJimq6X+drATJjmiLRXYLMDSlc/mL0Zb/kM4akle/vOeJFQK4nXeQ==
-  dependencies:
-    identity-obj-proxy "^3.0.0"
 
 "@xotomicro/xotomicro-front-utility-registry@^0.0.14":
   version "0.0.14"
@@ -10423,11 +10383,6 @@ single-spa-react@*, single-spa-react@^4.6.1:
   integrity sha512-19Yr1f6u9ix/wTI+OVLzX/KJ258xCyfe1Zpw7NKoI02QWBLx5B9l9XmBx9gqVtkrgP5ARR0Wr3ztY7EN8V1DAA==
   dependencies:
     browserslist-config-single-spa "^1.0.1"
-
-single-spa-react@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/single-spa-react/-/single-spa-react-3.2.0.tgz#97bfcb03e418f7daa2b1bd05eab1c62632351d91"
-  integrity sha512-s8K7AuS26WvN9n81z1NBlnZIe/Hin423P8jYLuG/DCNTYo5JbJMS5+Cb/wQd4ikG6YqoedpV4cb7nAcxvlLyhg==
 
 single-spa@^5.8.2, single-spa@^5.8.3:
   version "5.9.3"

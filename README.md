@@ -58,9 +58,8 @@ git clone --recurse-submodules https://github.com/xotomicro/xotomicro-front.git 
 
 ```shell
 
-
-# 0. register packages - yarn (ask owner for token)
-export GITHUB_TOKEN=${ASK_GITHUB_TOKEN} # first set accessibility rules for your team and add your github token like so 
+# register packages - yarn (ask owner for token)
+export GITHUB_TOKEN=${ASK_FOR_GITHUB_TOKEN} # first set accessibility rules for your team and add your github token like so 
 npm set "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" # you will need to tell npm to authenticate yourself to install registries
 
 ```
