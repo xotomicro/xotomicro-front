@@ -88,7 +88,7 @@ docker-compose --env-file=.env up --build -d
 
 yarn lint:eslint # lint checks and fixes for all files
 yarn lint:stylelint # lint for styles for all files
-yarn format:prettify # fixes format issues across all micro-front ends and keeps your team in sync with formatting issues
+yarn lint:prettify # fixes format issues across all micro-front ends and keeps your team in sync with formatting issues
 yarn test:all # tell learna to run all tests
 
 ```
