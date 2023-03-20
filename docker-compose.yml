@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  xotomicro-front-shell-system:
+    extends:
+      file: ./packages/system/xotomicro-front-shell-system/docker-compose.development.yml
+      service: xotomicro-front-shell-system
+
+  xotomicro-front-hook-system:
+    extends:
+      file: ./packages/system/xotomicro-front-hook-system/docker-compose.development.yml
+      service: xotomicro-front-hook-system
+
+  xotomicro-front-auth-service:
+    extends:
+      file: ./packages/service/xotomicro-front-auth-service/docker-compose.development.yml
+      service: xotomicro-front-auth-service
+
+  xotomicro-front-event-service:
+    extends:
+      file: ./packages/service/xotomicro-front-event-service/docker-compose.development.yml
+      service: xotomicro-front-event-service
+
+  xotomicro-front-order-service:
+    extends:
+      file: ./packages/service/xotomicro-front-order-service/docker-compose.development.yml
+      service: xotomicro-front-order-service
+  xotomicro-front-product-service:
+    extends:
+      file: ./packages/service/xotomicro-front-product-service/docker-compose.development.yml
+      service: xotomicro-front-product-service
+
+  xotomicro-front-user-service:
+    extends:
+      file: ./packages/service/xotomicro-front-user-service/docker-compose.development.yml
+      service: xotomicro-front-user-service

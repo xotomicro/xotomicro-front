@@ -1,0 +1,61 @@
+name: ci-cl
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  notify:
+    name: notify
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+
+    steps:
+      - name: notify
+        uses: nobrayner/discord-webhook@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          discord-webhook: https://discord.com/api/webhooks/953744406232580106/ZeUHuAtbI5K84qDA5y7s8sg6rZ8RzEcrerjWIlK7tNDltJLMnGcBBL9D55SBodqAY8OG
+          username: "xotomicro"
+          title: "${{ github.workflow }}: {{STATUS}}"
+          description: "${{ github.event_name }} trigged this {{STATUS}}!"
+          include-details: "true"
+          color-success: "#4287f5"
+          color-failure: "eb4034"
+          color-cancelled: "0x42daf5"
+
+  # can be moved directly to each registry (common, design, utility)
+  trigger-registries-compatibility-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/xotomicro/xotomicro-front-auth-service/actions/workflows/workflow.yml/dispatches
+          ref: development
+        env:
+          GITHUB_TOKEN: ${{ secrets.REGISTRY_GITHUB_TOKEN }}
+      - uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/xotomicro/xotomicro-front-event-service/actions/workflows/workflow.yml/dispatches
+          ref: development
+        env:
+          GITHUB_TOKEN: ${{ secrets.REGISTRY_GITHUB_TOKEN }}
+      - uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/xotomicro/xotomicro-front-order-service/actions/workflows/workflow.yml/dispatches
+          ref: development
+        env:
+          GITHUB_TOKEN: ${{ secrets.REGISTRY_GITHUB_TOKEN }}
+      - uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/xotomicro/xotomicro-front-product-service/actions/workflows/workflow.yml/dispatches
+          ref: development
+        env:
+          GITHUB_TOKEN: ${{ secrets.REGISTRY_GITHUB_TOKEN }}
+      - uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/xotomicro/xotomicro-front-user-service/actions/workflows/workflow.yml/dispatches
+          ref: development
+        env:
+          GITHUB_TOKEN: ${{ secrets.REGISTRY_GITHUB_TOKEN }}

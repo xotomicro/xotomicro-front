@@ -1,0 +1,47 @@
+{
+	"name": "xotomicro-front",
+	"description": "xotomicro-front root of the xotomicro repo pack - 📦",
+	"license": "ISC",
+	"private": true,
+	"workspaces": {
+		"nohoist": [
+			"**"
+		],
+		"packages": [
+			"packages/service/*",
+			"packages/system/*",
+			"registries/*"
+		]
+	},
+	"scripts": {
+		"boot": "yarn install",
+		"build": "turbo run build",
+		"clean": "turbo clean --yes && turbo exec -- rm -rf build",
+		"start": "turbo run start",
+		"start:root": "turbo run start --filter==@xotomicro/xotomicro-front-shell-system,@xotomicro/xotomicro-front-hook-system",
+		"start:xotomicro-front-shell-system": "turbo run start --filter=@xotomicro/xotomicro-front-shell-system",
+		"start:xotomicro-front-hook-system": "turbo run start --filter=@xotomicro/xotomicro-front-hook-system",
+		"start:xotomicro-front-event-service": "turbo run start --filter=@xotomicro/xotomicro-front-event-service",
+		"start:xotomicro-front-order-service": "turbo run start --filter=@xotomicro/xotomicro-front-order-service",
+		"start:xotomicro-front-auth-service": "turbo run start --filter=@xotomicro/xotomicro-front-auth-service",
+		"start:xotomicro-front-product-service": "turbo run start --filter=@xotomicro/xotomicro-front-product-service",
+		"start:xotomicro-front-user-service": "turbo run start --filter=@xotomicro/xotomicro-front-user-service",
+		"lint:prettify": "turbo run lint:prettify",
+		"lint:eslint": "turbo run lint:eslint",
+		"lint:stylelint": "turbo run lint:stylelint",
+		"test:all": "turbo run test --since",
+		"registries:update": "turbo run registries:update",
+		"registries:publish": "turbo run registries:publish",
+		"git:changelog": "turbo run git:changelog",
+		"git:init": "turbo run git:init",
+		"git:update": "turbo run git:update",
+		"git:checkout": "turbo run git:checkout",
+		"git:commit": "./scripts/submodules-branch-sync.sh",
+		"git:push": "git submodule foreach git push && git push"
+	},
+	"version": "0.0.0",
+	"devDependencies": {
+		"auto-changelog": "^2.4.0",
+		"turbo": "^1.8.1"
+	}
+}

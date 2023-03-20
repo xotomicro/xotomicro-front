@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: xotomicro-front-hook-system
+  name: xotomicro-front-hook-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: xotomicro-front-hook-system
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        io.kompose.service: xotomicro-front-hook-system
+    spec:
+      containers:
+        - image: xotomicro-front-hook-system
+          imagePullPolicy: IfNotPresent
+          name: xotomicro-front-hook-system
+          ports:
+            - containerPort: 80
+          resources: {}
+      restartPolicy: Always
+status: {}

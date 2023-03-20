@@ -1,0 +1,21 @@
+{
+	"$schema": "https://turborepo.org/schema.json",
+	"pipeline": {
+		"build": {
+			"dependsOn": ["^build"],
+			"cache": true,
+			"outputs": ["dist/**"]
+		},
+		"start": {},
+		"lint:prettify": {},
+		"lint:eslint": {},
+		"lint:stylelint": {},
+		"test:all": {},
+		"registries:update": {},
+		"registries:publish": {},
+		"git:changelog": {},
+		"git:init": {},
+		"git:update": {},
+		"git:checkout": {}
+	}
+}
